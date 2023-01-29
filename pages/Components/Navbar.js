@@ -9,9 +9,9 @@ export default function Navbar() {
             <nav>
                <ul className="d-flex">
                   <li><Link href="/">Home</Link></li>
-                  <li><Link href="/">Blog</Link></li>
+                  <li><Link href="/blog">Blog</Link></li>
                   <li><Link href="/about">About</Link></li>
-                  <li><Link href="/">Contact</Link></li>
+                  <li><Link href="/contact">Contact</Link></li>
                   <li><Link href="/">Newslatter</Link></li>
                </ul>
             </nav>

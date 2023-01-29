@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import Link from 'next/link'
-import Navbar from './Components/Navbar'
 import HeroSection from './Components/Herosection'
 import HomeBlogList from './Components/HomeBlogList'
 
@@ -16,7 +14,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar/>
       <div>
          <HeroSection/>
          <HomeBlogList/>
