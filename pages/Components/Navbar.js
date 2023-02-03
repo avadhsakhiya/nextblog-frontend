@@ -1,11 +1,12 @@
 import Link from "next/link";
+import {logo} from "../../public/logo.svg"
 
 export default function Navbar() {
   return (
     <header>
        <div className="container">
          <div className="header-main d-flex align-items-center justify-content-between">
-            <div className="logo">logo</div>
+            <div className="logo"><img src="/logo.svg" width="150px"/></div>
             <nav>
                <ul className="d-flex">
                   <li><Link href="/">Home</Link></li>
