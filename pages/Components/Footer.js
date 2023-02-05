@@ -8,10 +8,8 @@ export default function Footer() {
                     <div>logo</div>
                     <nav>
                         <ul className="d-flex">
-                            <li><Link href="/">Home</Link></li>
-                            <li><Link href="/blog">Blog</Link></li>
-                            <li><Link href="/about">About</Link></li>
-                            <li><Link href="/contact">Contact</Link></li>
+                            <li><Link href="/">Privacy Policy</Link></li>
+                            <li><Link href="/blog">Term of condition</Link></li>
                         </ul>
                     </nav>
                     <div className="social-media">

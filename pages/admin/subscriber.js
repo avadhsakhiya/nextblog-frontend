@@ -1,20 +1,17 @@
-import Link from "next/link";
-import AdminSidebar from "../Components/adminsidebar";
-
-export default function AdminPage() {
+export default function () {
   return (
     <div>
-       <div className="py-4">
-        <h4>All Blogpost list</h4>
+      <div className="py-4">
+        <h4>All Subscriber list</h4>
       </div>
       <div className="table-responsive-xl">
         <table class="table">
           <thead>
             <tr>
               <th scope="col">Image</th>
-              <th scope="col">Tital</th>
-              <th scope="col">Publish Date</th>
-              <th scope="col">Action</th>
+              <th scope="col">Email</th>
+              <th scope="col">Date</th>
+              <th scope="col">Topic</th>
             </tr>
           </thead>
           <tbody class="table-group-divider">

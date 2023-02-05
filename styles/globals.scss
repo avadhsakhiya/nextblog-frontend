@@ -13,7 +13,9 @@ ul {
 html {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
+body{
+    background: #f0f0f0;
+}
 h1 {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -21,15 +23,31 @@ h1 {
 }
 
 button {
-    background: #6415FF!important;
-    color: white!important;
-    border: navajowhite;
-    padding: 6px 15px;
+    background: #facf0f!important;
+    color: black!important;
+    border: none;
+    padding: 6px 20px;
     border-radius: 6px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+input , textarea{
+    color: #333;
+    padding: 8px 2rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 18px;
+    letter-spacing: 0;
+    background: white;
+    border-radius: 5px;
+    font-weight: 600;   
 }
 
 header {
     height: 65px;
+    background: white;
     .logo{
         padding: 20px 0;
     }
@@ -40,10 +58,11 @@ header {
                     text-decoration: none;
                     color: #000000 !important;
                     padding: 0 20px;
-                    font-weight: 400;
+                    font-weight: 700;
+                    font-size: 18px;
 
                     &:hover {
-                        color: #6415FF !important;
+                        color: #facf0f  !important;
                     }
                 }
             }
@@ -63,6 +82,7 @@ header {
             padding: 4px 15px;
             border-radius: 30px;
             display: inline-block;
+            background-color: white;
         }
 
         h1 {
@@ -108,11 +128,15 @@ header {
 
 .card{
     border: 0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
     img{
         border-radius: 10px;
     }
     .card-body{
-        padding: 0 0 30px 10px;
+        padding: 0 0 0px 10px;
         .category{
             color: #6415FF;
             text-transform: capitalize;
@@ -122,4 +146,29 @@ header {
             font-weight: 500;
         }
     }
+}
+
+.admin-sidebar{
+    background-color: #383838;
+    width: 222px;
+    height: 100vh;
+    nav{
+        padding-left: 40px;
+        ul{
+            margin-top: 50px;
+            li{
+                a{
+                    color: white;
+                    padding: 8px 0;
+                    display: block;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: white;
+    padding: 30px 0;
 }
