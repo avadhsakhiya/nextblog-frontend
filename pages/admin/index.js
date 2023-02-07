@@ -5,7 +5,7 @@ export default function AdminPage() {
   return (
     <div>
        <div className="py-4">
-        <h4>All Blogpost</h4>
+        <h4></h4>
       </div>
       <div className="table-responsive-xl">
         <table class="table">
